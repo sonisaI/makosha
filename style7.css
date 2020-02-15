@@ -1,0 +1,747 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+  height: 100%;
+}
+
+.ekran1{ 
+    position: relative;
+    height: 100%;
+    width: 100%;  
+    text-align: center;
+} 
+
+.menu{
+    position: relative;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    height: 14%;
+    width: 95%;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{ 
+    position: relative;
+    height: 100%;
+    left: 4%;
+    width: 20%;  
+} 
+
+.logo img {
+    flex-basis: 25%;
+    margin: 2%;
+}
+
+.navig {
+    margin-left: auto;
+    display: flex;
+    flex-basis: 40%;
+}
+
+.navig a{
+    display: block;
+    padding: 5px 20px;
+    color:  #FFC000;
+    text-decoration: none;
+} 
+
+.navig a:hover {
+   text-decoration: underline;
+   font-size: medium;
+}
+
+.zakaz1 {
+    display: flex;
+    flex-basis: 25%;
+    height: 50%;
+}
+
+.knopka1 {
+    text-decoration: none;
+    color:#FFFFFF;
+    background: linear-gradient(229.9deg, #FFC000 1.55%, #FF8A00 95.8%);
+    width: 45%;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+button:hover { 
+    text-decoration: underline;
+}
+
+.banner{ 
+    position: absolute;
+    height: 86%;
+    width: 100%;
+    background-image: linear-gradient(237.65deg, rgba(255, 192, 0, 0.24) 19.23%, #FF8A00 95.8%), url(img/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+.privet{
+    position: relative;
+    left: 12% ;
+    top: 12%;
+    width: 35%;
+    height: 68%;
+}
+
+.privet1 {
+    position: relative;
+    width: 100%;
+    height: 48%;
+    font-size: 44px;
+    font-weight: 750;
+}
+
+.privet1 li {
+    list-style: none;
+    display: block;
+    color: #FFFFFF;
+    line-height: 1.6em;
+    text-align: left;
+}
+
+.privet2  {
+    margin-top: 40px;
+    font-size: 18px;
+    line-height: 33px;
+    font-weight: normal;
+}
+
+.knopka2 {
+    height: 100%;
+    width: 30%;
+    border-radius: 25px;
+    background-color: #FFFFFF;
+    text-decoration: none;
+    border: none;
+    color: #FFC000;
+    font-size: 15px;
+    outline: none;
+    cursor: pointer;
+}  
+
+.kn {
+    height: 22%;
+    width: 100%;
+}
+
+
+/* =============================================================== */
+
+.ekran2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.hugg {
+    display: flex;
+    height: 105%;
+    flex-wrap: nowrap;
+    width: 90%;
+}
+
+.huggs {
+    margin-top: 1%;
+    height: 99%;
+    width: 65%;
+}  
+
+.text2 {
+    text-align: left;
+    display: flex;
+    flex-basis: 35%;
+    color: #FF8A00;
+    font-size: 40px;
+    font-style: normal;
+    font-family: Arial;
+    line-height: 2em;
+    margin-top: 2.5em;
+    margin-left: 50pt;
+}
+
+.hugg li {
+    list-style-type:  none;
+}
+
+.get {
+    font-weight: 900;
+}
+
+.text2_1  {
+    margin-top: 4%;
+    color: black;
+    font-size: 15px;
+    line-height: normal;  
+}
+
+.kn2 {
+    height: 7%;
+    width: 100%;
+}
+
+.knopka3 {
+    text-decoration: none;
+    color:#FFFFFF;
+    background: linear-gradient(229.9deg, #FFC000 1.55%, #FF8A00 95.8%);
+    width: 35%;
+    border-radius: 25px;
+    height: 100%;
+    border: none;
+    margin-top: 30pt;
+    text-align: center;
+    outline: none;
+    cursor: pointer;
+}
+
+/* ====================================================== */
+
+.ekran3 {
+    position: relative;
+    background-color:  #FFF7DF;
+}
+
+.top_6 {
+    position: relative;
+    height: 10%;
+    width: 40%;
+    color: #FF8A00;
+    font-size: 40px;  
+    font-family: Arial;
+    padding-top: 4%;
+    margin: auto;
+}
+
+span {
+    font-weight: 900;
+}
+
+.container {
+    position: relative;
+    width: 70%;
+    height: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 15%;
+}
+
+.container, .foto6 {
+       text-align: center;
+}
+
+.un1 {
+    flex-basis: 33%;
+    justify-content: center;
+    margin-top: 8%;
+    min-width: 200px;
+}
+
+.un1, span {
+    text-align: center;
+}
+
+.kn3 {
+    position: relative;
+    width: 100%;
+    height: 10em;
+    text-align: center;
+}
+
+.knopka4 {
+    position: relative;
+    margin-top: 4%;
+    text-decoration: none;
+    color:#FFFFFF;
+    background: linear-gradient(229.9deg, #FFC000 1.55%, #FF8A00 95.8%);
+    width: 11%;
+    border-radius: 25px;
+    border: none;
+    text-align: center;
+    height: 30%;
+    outline: none;
+    cursor: pointer;
+}
+/* ============================================================= */
+
+.ekran4 {
+    margin-top: 2%;
+    height: 100%;
+    width: 100%;  
+    position: relative;
+    background: linear-gradient(241.87deg, #FFC000 1.55%, #FF8A00 95.8%);
+}
+
+.dodtov {
+    position: relative;
+    width: 20%;
+    height: 100%;
+    margin-left: 7%;
+    padding-top: 5%;
+    color: #FFFFFF;
+}
+
+.dodtov li {
+    list-style-type:  none;
+}
+
+.dodtov1 {
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 158.34%;
+    line-height: 1.5em;
+    
+}
+
+.dodtov2 {
+    margin-top: 15%;
+}
+
+.kn4 {
+    margin-top: 15%;
+    height: 4em;
+    width: 100%;
+}
+
+.knopka5 {
+    height: 65%;
+    width: 47%;
+    border-radius: 25px;
+    background-color: #FFFFFF;
+    text-decoration: none;
+    border: none;
+    color: #FFC000;
+    font-size: 15px;
+    outline: none;
+    cursor: pointer;
+}  
+
+
+
+/* .foto {
+    position: relative;
+    margin-right: 15%;
+    margin-top: 9%;
+    margin-bottom: 10%;
+    width: 55%;
+    height: 82%;
+    left: 35%;
+    top: -75%;    
+}
+
+.foto .rog {
+    position: relative;
+    left: 0;
+    top: 25%;
+}
+
+.foto .beno {
+    position: relative;
+    top: 10%;
+    left:2% ;
+}
+
+.foto .chasha {
+    position: relative;
+    top: 33%;
+    left:-32% ;
+}
+
+.foto .hand {
+    position: relative;
+    top: 58%;
+    left: -30%;
+}
+
+.foto .rog1 {
+    position: relative;
+    top: -53%;
+    left: 58%;
+}
+
+.foto .chasha1 {
+    position: relative;
+    top: -28%;
+    left: 23%;
+}
+
+.foto .beno1{
+    position: relative;
+    right: -30%;
+} */
+
+/* =============================================== */
+
+.ekran5 {
+    position: relative;
+    width: 100%;
+    height: 100%;  
+}
+
+.container1 {
+    position: relative;
+    top: 10%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    height: 25%;
+}
+
+.container1 .kombo1:last-child {
+    margin-right: 0px;
+}
+
+.kombo {
+    position: relative;
+    top: 2%;
+    height: 15%;
+    color: #FF8A00;
+    font-size: 40px;  
+    font-family: Arial;
+    font-weight: 800;
+    margin: 1%;
+    text-align: center;
+}
+
+.kombo1 {
+    flex-basis: 24%;
+    font-size: 0;
+    margin-right: 6px;
+    border: 1px;
+    border-radius: 10px;
+    border-collapse: separate;
+    background: linear-gradient(219.26deg, #FFC000 1.55%, #FF8A00 95.8%);
+}
+
+.kombo1 img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.textkombo1 {
+    position: relative;
+    text-align: left;
+    height: 5em;
+    color: #FFFFFF;
+    font-size: 14px;
+    border-radius: 0 0 10px 10px;
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 20px;
+}
+
+.textkombo1 p {
+   font-weight: 800;   
+}
+
+.skidka1 {
+    position: absolute;
+    width: 4%;
+    height: 8%;
+    background: linear-gradient(219.26deg, #FFC000 1.55%, #FF8A00 95.8%);
+    color:#FFFFFF;
+    top: 0%;
+    font-size: large;
+    text-align: center;
+    border-radius: 10px 0;
+}
+
+.kn5 {
+    margin-top: 1%;
+    position: relative;
+    width: 100%;
+    height: 10em;
+    text-align: center;
+}
+
+.knopka6 {
+    position: relative;
+    margin-top: 4%;
+    text-decoration: none;
+    color:#FFFFFF;
+    background: linear-gradient(229.9deg, #FFC000 1.55%, #FF8A00 95.8%);
+    width: 11%;
+    border-radius: 25px;
+    border: none;
+    text-align: center;
+    height: 30%;
+    outline: none;
+    cursor: pointer;
+}
+/* ================================================*/
+
+.ekran6 {
+    position: relative;
+    width: 100%;
+    height: 100%;  
+    background-color:  #FFF7DF;
+}
+
+.review {
+    position: relative;
+    margin: 2% auto;
+    padding-top: 6%;
+    width:40%;
+    height: 10%;
+    text-align: center;
+    color:  rgb(236, 142, 18);
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.ax {
+    margin: 10%;
+    color: black;
+    font-size: 12px;
+}
+
+.container2 {
+    position: relative;
+    top: 15%;
+    width: 90%;
+    height: 75%;
+    left: 9%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.review1 {
+    flex-basis: 25%;
+}
+
+blockquote {
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201c" "\201c";
+}
+blockquote:before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+
+blockquote p {
+    display: inline;
+}
+
+blockquote:hover {
+    background-color: white;
+}
+
+blockquote:after {
+    float: right;
+}
+
+blockquote p {
+    margin: 0.8em 2.5em;
+} 
+
+/* ==================================================== */
+
+.ekran7 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(241.87deg, #FF8A00  1.55%, #FFC000 95.8%);
+}
+
+.hand7 {
+    padding-top: 7%;
+    height: 97%;
+    width: 49%;
+    position: absolute;
+    z-index: 2;
+}
+
+.hand7_1 {
+    padding-top: 7%;
+    height: 97%;
+    width: 49%;
+    position: relative;
+    z-index: 1;
+    top: 1%;
+}
+   
+.text7 {
+
+    float: right;
+    position: relative;
+    top: 20%;
+    right: 10%;
+    width: 35%;
+    height: 100%;
+}
+
+.text7 ul {
+    list-style-type:  none;
+    font-family: Arial;
+}
+
+.text7_1 { 
+    color: #FFFFFF;
+    font-weight: 850;
+    margin-top: 7%;
+    font-size: 40px;
+
+}
+
+.text7_2 {
+    margin-top: 7%;
+}
+
+.kn7 {
+    margin-top: 10%;
+    height: 4em;
+    width: 100%;
+}
+
+.knopka7 {
+    height: 65%;
+    width: 30%;
+    border-radius: 25px;
+    background-color: #FFFFFF;
+    text-decoration: none;
+    border: none;
+    color: #FFC000;
+    font-size: 15px;
+    outline: none;
+    cursor: pointer;
+}  
+
+
+/* ========================================================== */
+
+.podval{ 
+    margin-top: 8%;
+    position: relative;
+    background: #686060;
+    left: 0;
+    height: 320px;   
+}
+
+
+.stolb_1{
+    position: relative;
+    top: 5%;
+    left: 7%;
+    width: 16%;
+    height: 65%;
+}
+.stolb_1 .logo{
+    margin-top: 5%;
+    width: 100%;
+    height: 40%;
+}
+.text8{
+    margin-top:  10%;
+    position: relative;
+    height: 20%;
+    color: #FFFFFF; 
+
+    
+}
+
+.ss{
+    margin-top: 30%;
+    
+}
+
+.ss li{
+    display: inline-block;
+    text-align: center;
+}
+
+.ss a{
+    display: block;
+    text-decoration: none;
+    padding: 5px 10px;
+    color: antiquewhite;
+}
+
+.stolb_2{
+    position: relative;
+    left: 35%;
+    top: -50%;
+    width: 10%;
+    height: 65%;
+} 
+
+.stolb_2 h3 li{
+    margin-bottom: 50px;
+    color: #FFFFFF;
+}
+
+.stolb_2 li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+
+.stolb_2 a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.stolb_3{
+    position: absolute;
+    left: 55%;
+    top: 16%;
+    width: 15%;
+    height: 65%;
+} 
+
+.stolb_3 li{
+    list-style: none;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.stolb_3 h3 li{
+    margin-bottom: 50px;
+    color: #FFFFFF;
+}
+
+.stolb_4{
+    position: absolute;
+    right: 10%;
+    top: 55%;
+    width: 13%;
+    height: 20%;
+    
+} 
+.stolb_4 li{
+    list-style: none;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.avtor{ 
+    position: relative;
+    width: 100%;
+    height: 7%;
+    background: #000000;
+    color: #FFFFFF;
+}
+ .avtor p {
+    margin-left: 10%;
+   padding: 1%;
+ }
