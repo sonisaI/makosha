@@ -70,6 +70,8 @@ html, body{
     outline: none;
     cursor: pointer;
     height:3.5em;
+    font-size: 18px;
+    font-weight: bolder;
 }
 
 button:hover { 
@@ -124,7 +126,8 @@ button:hover {
     text-decoration: none;
     border: none;
     color: #FFC000;
-    font-size: 15px;
+    font-size: 18px;
+    font-weight: bold;
     outline: none;
     cursor: pointer;
     height: 3.5em;
