@@ -69,6 +69,7 @@ html, body{
     border: none;
     outline: none;
     cursor: pointer;
+    height:3.5em;
 }
 
 button:hover { 
@@ -126,6 +127,7 @@ button:hover {
     font-size: 15px;
     outline: none;
     cursor: pointer;
+    height: 3.5em;
 }  
 
 .kn {
@@ -195,7 +197,7 @@ button:hover {
     background: linear-gradient(229.9deg, #FFC000 1.55%, #FF8A00 95.8%);
     width: 35%;
     border-radius: 25px;
-    height: 100%;
+    height: 3.5em;
     border: none;
     margin-top: 30pt;
     text-align: center;
